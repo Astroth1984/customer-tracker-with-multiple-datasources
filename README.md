@@ -8,9 +8,9 @@ In this project, we connect to two different databases: web_customer_tracker and
 
 The application uses the following architecture
 
-                                            /---- EmployeeDAO
-DemoController -> MultiDataSourceService ---
-                                            \---- CustomerDAO
+                                                /---- EmployeeDAO
+DemoController -> MultiDataSourceService --- >
+                                                \---- CustomerDAO
 
 
 The complete source code for the project is available.
